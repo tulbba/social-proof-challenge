@@ -17,8 +17,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://github.com/tulbba/social-proof-challenge)
-- Live Site URL: (https://social-proof-challenge-nine.vercel.app/)
+- [Solution link] (https://github.com/tulbba/social-proof-challenge)
+- [Link to Live Site]: (https://social-proof-challenge-nine.vercel.app/)
 
 
 ### Built with
