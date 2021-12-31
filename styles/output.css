@@ -1,0 +1,224 @@
+body {
+  background-image: url("/images/bg-pattern-top-mobile.svg"), url("/images/bg-pattern-bottom-mobile.svg");
+  font-family: "Spartan", sans-serif;
+  background-repeat: no-repeat no-repeat;
+  background-position: top, bottom;
+  background-size: contain;
+}
+
+#main {
+  padding-top: 1.6rem;
+}
+
+#title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#title h1 {
+  color: #502050;
+  text-align: center;
+  font-weight: 700;
+  margin: 2rem;
+}
+
+section {
+  color: #937b92;
+  margin: 1rem;
+  text-align: center;
+  font-size: 0.93rem;
+  font-weight: 500;
+  line-height: 1.7;
+}
+
+#rating__stars {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.3rem;
+}
+
+#rating__customers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.3rem;
+}
+
+#stars__1 {
+  margin-top: 1.7rem;
+}
+
+#stars__3 {
+  margin-bottom: 2.8rem;
+}
+
+#stars__1, #stars__2, #stars__3 {
+  background: #f7f2f7;
+  color: #502050;
+  font-weight: 700;
+  width: 20.5rem;
+  height: 5.3rem;
+  border-radius: 0.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+}
+
+#box {
+  background-color: #502050;
+  max-width: 20.5rem;
+  height: 14rem;
+  border-radius: 0.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+#box img {
+  width: 2.7rem;
+  height: 2.7rem;
+  border-radius: 6rem;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  bottom: 0.3rem;
+}
+#box #profile {
+  display: flex;
+  flex-direction: row;
+  padding-left: 2rem;
+}
+#box span {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0.3rem;
+  padding-left: 1.3rem;
+  font-size: 0.8rem;
+  color: #ee68a4;
+}
+#box #customer {
+  color: white;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+#box #review {
+  color: white;
+  font-size: 0.8rem;
+  line-height: 1.7;
+  padding: 0 2rem 0 2rem;
+}
+
+#footer {
+  height: 5rem;
+}
+
+@media (min-width: 48rem) {
+  body {
+    background-position-y: -10rem, 40rem;
+  }
+}
+/* LAPTOP 1024PX */
+@media (min-width: 64rem) {
+  body {
+    background-image: url("/images/bg-pattern-top-desktop.svg"), url("/images/bg-pattern-bottom-desktop.svg");
+    background-repeat: no-repeat;
+    background-position-y: -13rem, bottom;
+    background-size: contain;
+  }
+
+  #title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  section {
+    padding: 0 3rem 0 3rem;
+  }
+}
+/* LAPTOP 1280px */
+@media (min-width: 80rem) {
+  body {
+    background-position: -40rem, 30rem;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  #main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+  }
+
+  #title {
+    display: flex;
+    flex-direction: column;
+    max-width: 26.25rem;
+    padding-right: 12rem;
+  }
+  #title h1 {
+    font-size: 2.7rem;
+    text-align: left;
+  }
+  #title section {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    left: 2rem;
+    bottom: 2rem;
+  }
+  #title p {
+    max-width: 30rem;
+    text-align: left;
+    font-size: 1rem;
+    padding-bottom: 2rem;
+  }
+
+  #rating__customers {
+    flex-direction: row;
+    position: relative;
+    left: 2.6rem;
+  }
+
+  #desktop {
+    display: flex;
+    flex-direction: row;
+  }
+  #desktop #rating__stars #stars__1, #desktop #rating__stars #stars__2, #desktop #rating__stars #stars__3 {
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 27rem;
+    height: 3.4rem;
+  }
+  #desktop #rating__stars #stars__1 {
+    position: relative;
+    right: 4rem;
+  }
+  #desktop #rating__stars #stars__3 {
+    position: relative;
+    left: 4rem;
+  }
+
+  #box {
+    margin-right: 1rem;
+  }
+
+  #box:nth-child(2) {
+    position: relative;
+    top: 1.5rem;
+  }
+
+  #box:nth-child(3) {
+    position: relative;
+    top: 3rem;
+  }
+}
+
+/*# sourceMappingURL=output.css.map */
